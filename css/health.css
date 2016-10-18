@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0; margin:0; font-family:"微软雅黑"; font-size:14px;}
+a{ text-decoration:none;}
+li{ list-style:none;}
+.top{ background:url(../images/top.png) no-repeat top center; height:216px;}
+.heal-bg{  height:500px;}
+.healbox{ width:1200px; overflow:hidden; margin:0 auto;}
+.nor-nav{ width:190px; height:450px; position:absolute; top:0; left:50%; margin-left:-600px; }
+.nor-nav li{ width:170px; height:89px; line-height:30px; color:#fff; list-style:none; margin:0 0 0 10px; }
+.nor-nav li h3{ font-size:16px; font-weight:500; padding:20px 0 0 15px; }
+.nor-nav li h3 a{color:#fff;}
+.nor-nav li p{height:30px;line-height:30px;overflow:hidden;}
+.nor-nav li p a{ color:#fff; padding:0 0 0 15px; }
+.nor-nav li p a:hover{text-decoration:underline;}
+.h-slide{ width:1010px; float:left; height:500px;}
+.heal-tit img{ padding:20px 0;}
+.heal-add{ position:relative; height:680px; }
+.h-add1{ position:absolute; top:0px; left:0px; display:inline-block; width:752px; height:350px;}
+.h-add1 img{width:750px;height:350px;}
+.h-add2{position:absolute; top:350px; left:0px; display:inline-block; width:377px; height:330px;}
+.h-add2 img{width:375px;height:330px;}
+.h-add3{position:absolute; top:350px; left:377px; display:inline-block;}
+.h-add3 img{width:375px;height:330px;}
+.h-add4{position:absolute; top:0px; left:752px; display:inline-block;}
+.h-add4 img{width:450px;height:680px;}
+.nutrition-tit{ width:1200px; height:50px;  border-bottom:2px solid #333;}
+.nutrition-tit h3{ font-size:28px; font-weight:400; float:left; line-height:50px;}
+.nutrition-tit small{float:left; padding:20px 0 0 10px; color:#666; font-size:16px;}
+.nutrition-tit span{ float:right; color:#666; line-height:50px;}
+.n-contion{ overflow:hidden;}
+.nutrition-add{ float:left;}
+.nutrition-cp{ width:675px; overflow:hidden; float:left; }
+.nutrition-cp li{ width:224px; height:210px; float:left; border-right:1px solid #e3e3e3; border-bottom:1px solid #e3e3e3; line-height:30px; list-style:none;  }
+.ulist-wz{ width:100px; overflow:hidden; float:left; padding:10px 0 0 10px;}
+.nutrition-cp li h3{ width:100px; height:50px; overflow:hidden; line-height:25px; font-weight:normal;}
+.nutrition-cp li h3 a{ color:#333; text-decoration:none; }
+.nutrition-cp li p{width:200px; height:30px; overflow:hidden;}
+.nutrition-cp li i{ color:#FF070B; font-style:normal; font-size:16px;}
+.nutrition-cp li span{ text-decoration:line-through; color:#666; margin:0 0 0 5px;}
+.nutrition-cp img{ float:left; padding:50px 0 0 10px; width:100px; height:132px;}
+.nav-cor2{ background:#9999cc;}
+.nutrition-add img{ width:525px; height:420px;}
+.information-add{width:190px; height:448px; position:absolute; left:50%; margin-left:410px; top:0px; background:rgba(0,0,0,0.3); background:#fff; z-index:999;}
+.information-add img{ border:1px solid #e3e3e3; height:222px; width:188px;}
+.information-add a{ display:inline-block; height:222px; width:188px;}
+
+
+
+
+
+
+
+
+.slider-img{width:190px; height:448px; position:absolute; left:50%; margin-left:410px; top:0px;z-index:999;}
+.slider-img img{ width:188px; height:210px; padding-top:9px;}
+.fran-add{ width:393px; float:left; height:360px; border:1px solid #e3e3e3;}
+.fran-logo{ width:800px; oerflow:hidden; float:right; }
+.fran-logo li{ height:177px; width:393px; float:left; padding:0 0 10px 7px;}
+.fran-logo li img {border: 1px solid #e3e3e3;width: 390px;height: 177px;}
+.f-add1{ float:left;}
+.f-add2{ float:left; padding:0 0 0 20px;}
+.fran-brand{ overflow:hidden; padding:10px 0 0 0;}
+.frans-add {width: 398px;float: left;height: 419px;border: 1px solid #e3e3e3;}
+.frans-cp { width: 800px;overflow: hidden; float: left;border-top: 1px solid #e3e3e3;}
+.frans-cp li {
+    width: 198px;
+    height: 209px;
+    float: left;
+    border-right: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+    /* border-top: 1px solid #e3e3e3; */
+    line-height: 30px;
+    list-style: none;
+    text-align: center;
+}
+.frans-cp li h3{ width:180px; height:46px; overflow:hidden; line-height:23px; font-weight:normal; padding: 0 0 0 10px; text-align:left;}
+.frans-cp li h3 a{ color:#333; text-decoration:none; }
+.frans-cp li p{width:180px; height:30px; overflow:hidden; padding: 0 0 0 10px; text-align:left;}
+.frans-cp li i{ color:#FF070B; font-style:normal; font-size:16px;}
+.frans-cp li span{ text-decoration:line-through; color:#666; margin:0 0 0 5px;}
+.frans-cp img{  width:120px; height:120px; padding:5px 0 0 0;}
+.nav-cor3{ background:#ffacd6;}
+.nav-cor4{ background:#448aca;}
+.nav-cor5{ background:#fe626e;}
+.nav-cor3 li{border-bottom:1px solid #ff99cc;}
+.nav-cor2 li{border-bottom:1px solid #8f82bc;}
+.nav-cor4 li{border-bottom:1px solid #0068b7;}
+.nav-cor5 li{border-bottom:1px solid #e23d4a;}
+.milk-tit{ height: 50px; padding:15px 0 0 0; }
+/*.milk-h{ background:url(../images/img_29.png) no-repeat;  }*/
+.milk-tit h3 {width: 240px; height: 43px;line-height: 43px;color: #333;font-size: 22px;font-weight: 500;float: left;}
+.milk-tit span{ float:right; line-height:50px; }
+.milk-tit span a{color:#666;}
+.tit-border-1{ border-bottom:2px solid #b10a36; }
+/*.h-blue{ background:url(../images/img_30.png) no-repeat;}*/
+.tit-border-2{border-bottom:2px solid #0099cc;}
+/*.h-green{ background:url(../images/img_31.png) no-repeat;}*/
+.tit-border-3{border-bottom:2px solid #56b44c;}
+/*.h-purple{ background:url(../images/img_32.png) no-repeat;}*/
+.tit-border-4{border-bottom:2px solid #d26bc0;}
+.tit-border-5{border-bottom:2px solid #ff8400;}
+
+
+
+
+.makeup-add ul{ border-left:1px solid #e3e3e3; border-top:1px solid #e3e3e3; overflow:hidden;  }
+.makeup-add li{ width:148.7px; height:78px; border-right:1px solid #e3e3e3; float:left;border-bottom:1px solid #e3e3e3; }
+.makeup-add li img{width:148px; height:78px;}
+
+
+
+.dity-tit{ height:45px; line-height:45px;}
+.dity-tit a{ float:right; color:#666;}
+.dity-tit h3{ font-size:16px;}
+.dity-nr{ padding:0 0 20px 0; overflow:hidden;}
+.dity-nr li{ width:214px; border:1px solid #e3e3e3; overflow:hidden; float:left; line-height:30px; background:#f4f4f4; }
+.dity-nr li img{ width:214px; height:214px;}
+.dity-nr li h3{ width:180px; height:40px; line-height:20px; overflow:hidden; font-weight:300; padding:0 10px;}
+.dity-nr li h3 a{ color:#333;}
+.dity-nr li p{padding:0 10px;}
+.dity-nr li p span{ font-size:20px; }
+.dity-nr li p i{ font-size:12px;  font-style:normal;}
+.dity-rx{ color:#fff; width:214px; height:30px; background:#cc3366; line-height:30px; text-align:center; display:inline-block;}
+.dity-r{margin:0 30px 0 0;}
+
